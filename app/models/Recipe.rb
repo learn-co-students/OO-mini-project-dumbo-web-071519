@@ -66,10 +66,16 @@ class Recipe
         @@all
     end
 
-
+    def self.recipe_to_user_count
+        recipe_user_hash = {}
+        Recipe.all.each do |recipe|
+            recipe_user_hash[recipe] = recipe.recipe_cards.count
+        end
+        recipe_user_hash.sort_by{|key, value| value}
+    end
     # - `Recipe.most_popular`
     # should return the recipe instance with the highest number of users (the recipe that has the most recipe cards)
    def self.most_popular
-
+        self.recipe_to_user_count.last[0]
    end
 end

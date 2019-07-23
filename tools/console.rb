@@ -43,6 +43,7 @@ date3 = Date.new(2001,2,5)
 oscar.declare_allergy(peanut)
 ali.declare_allergy(cilantro)
 charlotte.declare_allergy(gluten)
+charlotte.declare_allergy(peanut)
 
 oscar.add_recipe_card(pizza, date1, 5)
 oscar.add_recipe_card(pbj, date2, 1)
@@ -62,7 +63,7 @@ chris.add_recipe_card(salsa, date2, 5)
 chris.add_recipe_card(pbj, date3, 5)
 
 charlotte.add_recipe_card(pizza, date3, 2)
-charlotte.add_recipe_card(pbj, date3, 2)
+# charlotte.add_recipe_card(pbj, date3, 2)
 
 
 
