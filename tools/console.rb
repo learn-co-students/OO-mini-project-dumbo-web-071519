@@ -32,6 +32,10 @@ pizzaingredients = [flour, gluten, water, yeast, tomato, garlic, oregano, salt, 
 salsaingredients = [tomato, onion, garlic, cilantro]
 pbjingredients = [peanut, jelly, bread, gluten]
 
+pizza.add_ingredients(pizzaingredients)
+salsa.add_ingredients(salsaingredients)
+pbj.add_ingredients(pbjingredients)
+
 date1 = Date.new(2001,2,3)
 date2 = Date.new(2001,2,4)
 date3 = Date.new(2001,2,5)

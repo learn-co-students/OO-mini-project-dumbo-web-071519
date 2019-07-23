@@ -28,6 +28,7 @@ class Recipe
         end
         #returns an array of RecipeIngredient objects where the recipe is present
     end
+
     # - `Recipe#ingredients`
     # should return all of the ingredients in this recipe
     def ingredients
@@ -68,5 +69,7 @@ class Recipe
 
     # - `Recipe.most_popular`
     # should return the recipe instance with the highest number of users (the recipe that has the most recipe cards)
-   
+   def self.most_popular
+
+   end
 end
