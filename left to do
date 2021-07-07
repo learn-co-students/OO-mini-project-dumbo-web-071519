@@ -1,0 +1,8 @@
+left to do:
+
+-test existing code
+- write out:
+  - Recipe.most_popular
+  - User#top_three_recipes
+  - User#most_recent_recipe
+  - **** BONUS ****
